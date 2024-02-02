@@ -3,14 +3,6 @@
   "enabledManagers": ["maven"],
   "packageRules": [
     {
-      "enabled": false,	    
-      "depName": "Spring Boot",
-      "description": "Global config. Workaround to have human readable names in commits. Disabled, for demo purposes here but requires to be placed in global configuration.",
-      "matchPackagePatterns": [
-        "org.springframework.boot:.*"
-      ]
-    },
-    {
       "addLabels": ["should-be-present"],
       "description": "Repo config. This works as expected.",
       "matchPackagePatterns": [
